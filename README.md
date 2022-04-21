@@ -1,6 +1,6 @@
-# StudyTimer - COMPSCI 702<br />
+# StudyTimer<br />
 ## Description
-This is a simple timer Android mobile application that allows users to record their learning time in order to optimise the learning plan's designation and statistics. Users will simply record each learning session and store it in the history using this application. Simple statistical functions will also be provided by the application to help users better understand their learning status and progress.This app has an simple GUI to reduce user distraction, and we also have a focus mode to help users study more effectively. 
+This is a simple timer Android mobile application that allows users to record their learning time in order to optimise the learning plan's designation and statistics. Users will simply record each learning session and store it in the history using this application. Simple statistical functions will also be provided by the application to help users better understand their learning status and progress.This app has an simple GUI to reduce user distraction, and we also have a focus mode to help users study more effectively
 <br />
 ## Installation
 Minimum support platform: Android API15 4.0.3<br />
@@ -18,5 +18,3 @@ On the history page, it will display all saved time slot with their length, name
 
 - **Setting**<br /><br />
 On the setting page, it allows you to set your name for the Wellcome information on the main page. You could also turn on focus mode here, focus mode means that the timer will only run when the user stays on the main page, this is to prevent the user play their phone during the timer from running.<br />
-
-## Author
