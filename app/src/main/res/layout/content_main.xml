@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/uoatitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="@string/Explain1"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uoagroup"
+            android:layout_below="@+id/uoaclock"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/uoareset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:text="@string/reset"
+                android:background="@null"
+                android:textSize="20sp"
+                android:onClick="studyreset"
+                />
+
+            <Button
+                android:id="@+id/uoastart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/start"
+                android:textColor="@color/green"
+                android:textSize="20sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginStart="50dp"
+                android:onClick="studystart"
+                />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/newday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_centerHorizontal="true"
+            android:text="@string/save_the_slot"
+            android:layout_below="@+id/uoagroup"
+            android:textColor="@color/orange"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:onClick="setnewday"
+            />
+
+        <TextView
+            android:id="@+id/uoaclock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/timer_zero"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="60sp"
+            android:layout_below="@+id/uoatitle"
+            />
+        <TextView
+            android:id="@+id/daytext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_study"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:layout_below="@+id/newday"
+            />
+        <TextView
+            android:id="@+id/perday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timer_zero"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/daytext"
+            />
+
+        <TextView
+            android:id="@+id/avetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/average_study"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="25sp"
+            android:layout_below="@+id/perday"
+            />
+        <TextView
+            android:id="@+id/aveageday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timer_zero"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/avetext"
+            />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

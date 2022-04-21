@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Study Timer</string>
+    <string name="action_settings">Setting</string>
+    <string name="title_activity_main">Study Timer</string>
+    <string name="title_activity_history">History</string>
+    <string name="action_about">About</string>
+    <string name="action_history">History</string>
+    <string name="start">START</string>
+    <string name="reset">RESET</string>
+    <string name="resume">CONTINUE</string>
+    <string name="pause">PAUSE</string>
+    <string name="save_the_slot">Save The Slot</string>
+    <string name="timer_zero">00 : 00 : 00</string>
+    <string name="total_study">You total study time today:</string>
+    <string name="average_study">Average study time per day:</string>
+    <string name="clear_history">Clear History</string>
+    <string name="save_your_slot">Save your slot</string>
+    <string name="save_slot_warn1">Are you sure you want stop time slot? Today\'s study time will be recorded.</string>
+    <string name="save_slot_textbox">Enter yout slot name here</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="Explain1">Wellcome information processed in MainActivity</string>
+    <string name="layout_time_explain1">Time slot name here</string>
+    <string name="layout_time_explain2">Time here 00:00:00</string>
+    <string name="layout_time_explain3">Save date</string>
+</resources>

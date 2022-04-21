@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <PreferenceCategory
+        android:key="first_category"
+        android:title="Personal Information"
+        >
+        <EditTextPreference
+            android:key="prefer_name"
+            android:title="Name"
+            android:summary="Set up welcome name"
+            android:defaultValue="COMPSCI702 Student"
+            android:dialogMessage="Set up your prefer name"
+            >
+
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="second_category"
+        android:title="Timer Setting"
+        >
+        <CheckBoxPreference android:key="prefer_focus"
+            android:title="Focus Mode"
+            android:summary="Run the timer only when on the timer page">
+
+        </CheckBoxPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

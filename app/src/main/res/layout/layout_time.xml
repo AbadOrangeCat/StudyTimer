@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/history_border">
+
+
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:padding="5dp"
+        android:text="@string/layout_time_explain1"/>
+
+
+    <TextView
+        android:id="@+id/txt_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/layout_time_explain2"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/gray"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/t1"/>
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toRightOf="@+id/t1"
+        android:layout_toEndOf="@+id/t1"
+        android:padding="5dp"
+        android:text="@string/layout_time_explain3"
+         />
+
+
+</RelativeLayout>
