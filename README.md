@@ -72,8 +72,7 @@ There are two ways to use StudyTimer. If you only want to use the app, install i
 An **APK** is the install file for Android apps (similar to an `.exe` installer on Windows).
 
 1. Download the APK:
-   - If this repository includes a ready-to-install APK, it is typically named something like `app-release.apk`.
-   - In many Android projects, that file is stored under a folder like `app/release/`.
+   - The file is stored under the `app/release/app-release.apk`.
 2. On your Android phone, open the APK file.
 3. If Android blocks the install, enable “Install unknown apps” for your file manager or browser, then try again.
 
@@ -138,24 +137,3 @@ If you are reading the code, these files are the main entry points:
 This repository includes a `proguard-rules.pro` file.
 
 **Obfuscation** is a build step that makes compiled code harder to read, which can help protect the app against simple reverse‑engineering. In this project, release obfuscation is currently **disabled by default** (the release build uses `minifyEnabled false`), but the ProGuard rules file is already in place if you want to enable it later.
-
----
-
-## Contributing
-
-If you want to improve the project, here are a few friendly ideas:
-
-- Add screenshots to this README.
-- Improve the History screen (filters, search, export).
-- Add reminders or notifications.
-- Add a real Pomodoro mode (work/break cycles).
-
-Pull requests are welcome.
-
----
-
-## License
-
-This repository does not currently include a license file. That means you should treat the code as “all rights reserved” by default.
-
-If you want others to freely use, modify, or share it, consider adding an open-source license (for example MIT, Apache-2.0, or GPL).
